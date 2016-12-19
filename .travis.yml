@@ -1,0 +1,23 @@
+branches:
+  only: 
+    - master
+
+language: python
+
+# http://docs.travis-ci.com/user/languages/python/
+python:
+ - 2.7
+ - 3.3
+ - 3.4
+ - 3.5
+
+# http://docs.travis-ci.com/user/multi-os/
+os:
+ - linux
+
+install:
+ - pip install --upgrade -q pip
+ - pip install --upgrade -q jedha
+
+
+script: make test
