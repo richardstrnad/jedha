@@ -14,7 +14,7 @@ pypi:
 .PHONY: test
 test:
 	# Run the doc tests and unit tests
-	python tests/test_parser.py
+	cd tests; python test_parser.py
 .PHONY: clean
 clean:
 	find ./* -name '*.pyc' -exec rm {} \;
