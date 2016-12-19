@@ -1,0 +1,124 @@
+192.168.255.1:
+
+192.168.255.1:
+KUCA1-U1-AX01# 192.168.255.1:show cdp nei det
+
+192.168.255.1:----------------------------------------
+192.168.255.1:Device ID:KUCA1-U1-AS01.domain.local
+192.168.255.1:VTP Management Domain Name: NONE
+192.168.255.1:
+192.168.255.1:Interface address(es):
+192.168.255.1:    IPv4 Address: 198.55.92.20
+192.168.255.1:Platform: WS-C3850-24P, Capabilities: Switch IGMP Filtering 
+192.168.255.1:Interface: mgmt0, Port ID (outgoing port): GigabitEthernet1/0/9
+192.168.255.1:Holdtime: 121 sec
+192.168.255.1:
+192.168.255.1:Version:
+192.168.255.1:Cisco IOS Software, IOS-XE Software, Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 03.03.05SE RELEASE SOFTWARE (fc1)
+192.168.255.1:Technical Support: http://www.cisco.com/techsupport
+192.168.255.1:Copyright (c) 1986-2014 by Cisco Systems, Inc.
+192.168.255.1:Compiled Thu 30-Oct-14 13:12 by prod_rel_team
+192.168.255.1:
+192.168.255.1:Advertisement Version: 2
+192.168.255.1:
+192.168.255.1:Native VLAN: 992
+192.168.255.1:Duplex: full
+192.168.255.1:Mgmt address(es):
+192.168.255.1:    IPv4 Address: 198.55.92.20
+192.168.255.1:----------------------------------------
+192.168.255.1:Device ID:NU-U2-SU.domain.local(FOXNPD12P)
+192.168.255.1:System Name: NU-U2-SU
+192.168.255.1:
+192.168.255.1:Interface address(es):
+192.168.255.1:    IPv4 Address: 10.55.4.102
+192.168.255.1:Platform: N6K-C6001-64P, Capabilities: Router Switch IGMP Filtering Supports-STP-Dispute
+192.168.255.1:Interface: Ethernet1/1, Port ID (outgoing port): Ethernet1/1
+192.168.255.1:Holdtime: 124 sec
+192.168.255.1:
+192.168.255.1:Version:
+192.168.255.1:Cisco Nexus Operating System (NX-OS) Software, Version 7.0(7)N1(1)
+192.168.255.1:
+192.168.255.1:Advertisement Version: 2
+192.168.255.1:
+192.168.255.1:Native VLAN: 1
+192.168.255.1:Duplex: full
+192.168.255.1:Mgmt address(es):
+192.168.255.1:    IPv4 Address: 192.168.247.68
+KUCA1-U1-AX01# 
+KUCA1-U1-AX01# 
+KUCA1-U1-AX01# 
+KUCA1-U1-AX01# 
+KUCA1-U1-AX01# 192.168.255.1:
+KUCA1-U1-AX01# 
+KUCA1-u1-as01.domain.local:term len 0
+KUCA1-u1-as01.domain.local:KUCA1-U1-AS01#KUCA1-u1-as01.domain.local:
+KUCA1-u1-as01.domain.local:KUCA1-U1-AS01#KUCA1-u1-as01.domain.local:show cdp nei det
+KUCA1-u1-as01.domain.local:-------------------------
+KUCA1-u1-as01.domain.local:Device ID: 899-LO-000-01
+KUCA1-u1-as01.domain.local:Entry address(es): 
+KUCA1-u1-as01.domain.local:  IP address: 55.50.2.34
+KUCA1-u1-as01.domain.local:  IPv6 address: FE80::E25F:B9FF:FE4E:60E2  (Link-local)
+KUCA1-u1-as01.domain.local:Platform: cisco AIR-LAP1142N-E-K9,  Capabilities: Trans-Bridge Source-Route-Bridge IGMP 
+KUCA1-u1-as01.domain.local:Interface: GigabitEthernet3/0/20,  Port ID (outgoing port): GigabitEthernet0
+KUCA1-u1-as01.domain.local:Holdtime : 168 sec
+KUCA1-u1-as01.domain.local:
+KUCA1-u1-as01.domain.local:Version :
+KUCA1-u1-as01.domain.local:Cisco IOS Software, C1140 Software (C1140-K9W8-M), Version 15.3(3)JN7, RELEASE SOFTWARE (fc1)
+KUCA1-u1-as01.domain.local:Technical Support: http://www.cisco.com/techsupport
+KUCA1-u1-as01.domain.local:Copyright (c) 1986-2015 by Cisco Systems, Inc.
+KUCA1-u1-as01.domain.local:Compiled Tue 25-Aug-15 23:34 by prod_rel_team
+KUCA1-u1-as01.domain.local:
+KUCA1-u1-as01.domain.local:advertisement version: 2
+KUCA1-u1-as01.domain.local:Duplex: full
+KUCA1-u1-as01.domain.local:Power drawn: 15.400 Watts
+KUCA1-u1-as01.domain.local:Power request id: 22013, Power management id: 2
+KUCA1-u1-as01.domain.local:Power request levels are:15400 14500 0 0 0 
+KUCA1-u1-as01.domain.local:Management address(es): 
+KUCA1-u1-as01.domain.local:  IP address: 55.50.2.34
+KUCA1-u1-as01.domain.local:
+KUCA1-u1-as01.domain.local:-------------------------
+KUCA1-u1-as01.domain.local:Device ID: 899-LO-Z24-01
+KUCA1-u1-as01.domain.local:Entry address(es): 
+KUCA1-u1-as01.domain.local:  IP address: 55.50.2.146
+KUCA1-u1-as01.domain.local:  IPv6 address: FE80::C671:FEFF:FED9:3EC7  (Link-local)
+KUCA1-u1-as01.domain.local:Platform: cisco AIR-LAP1142N-E-K9,  Capabilities: Trans-Bridge Source-Route-Bridge IGMP 
+KUCA1-u1-as01.domain.local:Interface: GigabitEthernet3/0/16,  Port ID (outgoing port): GigabitEthernet0
+KUCA1-u1-as01.domain.local:Holdtime : 138 sec
+KUCA1-u1-as01.domain.local:
+KUCA1-u1-as01.domain.local:Version :
+KUCA1-u1-as01.domain.local:Cisco IOS Software, C1140 Software (C1140-K9W8-M), Version 15.3(3)JN7, RELEASE SOFTWARE (fc1)
+KUCA1-u1-as01.domain.local:Technical Support: http://www.cisco.com/techsupport
+KUCA1-u1-as01.domain.local:Copyright (c) 1986-2015 by Cisco Systems, Inc.
+KUCA1-u1-as01.domain.local:Compiled Tue 25-Aug-15 23:34 by prod_rel_team
+KUCA1-u1-as01.domain.local:
+KUCA1-u1-as01.domain.local:advertisement version: 2
+KUCA1-u1-as01.domain.local:Duplex: full
+KUCA1-u1-as01.domain.local:Power drawn: 15.400 Watts
+KUCA1-u1-as01.domain.local:Power request id: 52070, Power management id: 2
+KUCA1-u1-as01.domain.local:Power request levels are:15400 14500 0 0 0 
+KUCA1-u1-as01.domain.local:Management address(es): 
+KUCA1-u1-as01.domain.local:  IP address: 55.50.2.146
+KUCA1-u1-as01.domain.local:
+KUCA1-u1-as01.domain.local:-------------------------
+KUCA1-u1-as01.domain.local:Device ID: 120-u1-z05-01
+KUCA1-u1-as01.domain.local:Entry address(es): 
+KUCA1-u1-as01.domain.local:  IP address: 55.50.2.35
+KUCA1-u1-as01.domain.local:  IPv6 address: FE80::222:BDFF:FE1A:864  (Link-local)
+KUCA1-u1-as01.domain.local:Platform: cisco AIR-LAP1142N-E-K9,  Capabilities: Trans-Bridge Source-Route-Bridge IGMP 
+KUCA1-u1-as01.domain.local:Interface: GigabitEthernet2/0/9,  Port ID (outgoing port): GigabitEthernet0
+KUCA1-u1-as01.domain.local:Holdtime : 151 sec
+KUCA1-u1-as01.domain.local:
+KUCA1-u1-as01.domain.local:Version :
+KUCA1-u1-as01.domain.local:Cisco IOS Software, C1140 Software (C1140-K9W8-M), Version 15.3(3)JN7, RELEASE SOFTWARE (fc1)
+KUCA1-u1-as01.domain.local:Technical Support: http://www.cisco.com/techsupport
+KUCA1-u1-as01.domain.local:Copyright (c) 1986-2015 by Cisco Systems, Inc.
+KUCA1-u1-as01.domain.local:Compiled Tue 25-Aug-15 23:34 by prod_rel_team
+KUCA1-u1-as01.domain.local:
+KUCA1-u1-as01.domain.local:advertisement version: 2
+KUCA1-u1-as01.domain.local:Duplex: full
+KUCA1-u1-as01.domain.local:Power drawn: 15.400 Watts
+KUCA1-u1-as01.domain.local:Power request id: 23121, Power management id: 2
+KUCA1-u1-as01.domain.local:Power request levels are:15400 14500 0 0 0 
+KUCA1-u1-as01.domain.local:Management address(es): 
+KUCA1-u1-as01.domain.local:  IP address: 55.50.2.35
+KUCA1-u1-as01.domain.local:

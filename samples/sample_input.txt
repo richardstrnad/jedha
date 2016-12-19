@@ -1,0 +1,63 @@
+MYSwitch01#show cdp neighbors detail
+-------------------------
+Device ID: NETS999999.domain.local
+Entry address(es):
+  IP address: 192.168.1.19
+Platform: cisco WS-C3560-48PS,  Capabilities: Switch IGMP
+Interface: GigabitEthernet2/0/23,  Port ID (outgoing port): GigabitEthernet0/1
+Holdtime : 124 sec
+
+Version :
+Cisco IOS Software, C3560 Software (C3560-IPBASEK9-M), Version 12.2(52)SE, RELEASE SOFTWARE (fc3)
+Copyright (c) 1986-2009 by Cisco Systems, Inc.
+Compiled Fri 25-Sep-09 08:13 by sasyamal
+
+advertisement version: 2
+Protocol Hello:  OUI=0x00000C, Protocol ID=0x0112; payload len=27, value=RandVal
+VTP Management Domain: ''
+Native VLAN: 1
+Duplex: full
+Management address(es):
+  IP address: 192.168.1.19
+
+-------------------------
+Device ID: NETL0033.domain.local
+Entry address(es):
+  IP address: 192.168.1.40
+Platform: cisco WS-C3560G-48PS,  Capabilities: Switch IGMP
+Interface: GigabitEthernet2/0/22,  Port ID (outgoing port): GigabitEthernet0/2
+Holdtime : 179 sec
+
+Version :
+Cisco IOS Software, C3560 Software (C3560-IPBASEK9-M), Version 12.2(52)SE, RELEASE SOFTWARE (fc3)
+Copyright (c) 1986-2009 by Cisco Systems, Inc.
+Compiled Fri 25-Sep-09 08:13 by sasyamal
+
+advertisement version: 2
+Protocol Hello:  OUI=0x00000C, Protocol ID=0x0112; payload len=27, value=RandVal
+VTP Management Domain: 'default'
+Native VLAN: 1
+Duplex: full
+Management address(es):
+  IP address: 192.168.1.40
+
+-------------------------
+Device ID: NETL0011.domain.local
+Entry address(es):
+  IP address: 192.168.1.5
+Platform: cisco WS-C3850-12XS,  Capabilities: Switch IGMP
+Interface: TenGigabitEthernet1/0/22,  Port ID (outgoing port): TenGigabitEthernet1/0/1
+Holdtime : 152 sec
+
+Version :
+Cisco IOS Software, IOS-XE Software, Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 03.07.03E RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Wed 13-Jan-16 23:40 by prod_rel_team
+
+advertisement version: 2
+VTP Management Domain: 'NONE'
+Native VLAN: 1
+Duplex: full
+Management address(es):
+  IP address: 192.168.1.5
