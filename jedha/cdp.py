@@ -6,12 +6,12 @@ It requires 'show cdp neighbor detail' output
 import re
 
 _KEYS = {
-    'device_id': 'Device ID',
-    'ip_address': r'(?:IP address|IPv4 Address)',
-    'platform': 'Platform',
-    'capabilities': 'Capabilities',
-    'local_port': 'Interface',
-    'remote_port': r'Port ID \(outgoing port\)',
+    'device_id': 'Device ID:',
+    'ip_address': r'(?:IP address|IPv4 Address):',
+    'platform': r'Platform: (?:cisco)?',
+    'capabilities': 'Capabilities:',
+    'local_port': 'Interface:',
+    'remote_port': r'Port ID \(outgoing port\):',
 }
 
 class CDPEntry(object):
@@ -29,7 +29,7 @@ class CDPEntry(object):
 
     @staticmethod
     def _extract_keys(pattern, string):
-        res = re.search(r'{}:\s?(.*)'.format(pattern), string)
+        res = re.search(r'{}\s?(.*)'.format(pattern), string)
         if res:
             return res.group(1).split(',')[0].strip()
         else:
