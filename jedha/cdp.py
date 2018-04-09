@@ -27,6 +27,14 @@ class CDPEntry(object):
         self.local_port = None
         self.remote_port = None
 
+    @property
+    def local_port_short(self):
+        return self.shorten_interface(self.local_port)
+
+    @property
+    def remote_port_short(self):
+        return self.shorten_interface(self.remote_port)
+
     @staticmethod
     def _extract_keys(pattern, string):
         res = re.search(r'{}\s?(.*)'.format(pattern), string)

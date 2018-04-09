@@ -68,6 +68,16 @@ class TestCDPEntryClass(unittest.TestCase):
         self.assertEqual(cur_dev.shorten_interface(cur_dev.local_port, length=4), 'Giga2/0/23')
         self.assertEqual(cur_dev.shorten_interface(cur_dev.remote_port, length=5), 'Gigab0/1')
 
+    def test_local_port_short(self):
+        device = Device(NXOS_TEST_FILE)
+        cur_dev = device.cdp_entries[0]
+        self.assertEqual(cur_dev.local_port_short, 'Gi2/0/23')
+
+    def test_remote_port_short(self):
+        device = Device(NXOS_TEST_FILE)
+        cur_dev = device.cdp_entries[1]
+        self.assertEqual(cur_dev.remote_port_short, 'Gi0/2')
+
     def test_create_interface_description(self):
         device = Device(NXOS_TEST_FILE)
         cur_dev = device.cdp_entries[0]
