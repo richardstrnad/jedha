@@ -2,7 +2,8 @@ import os
 import unittest
 
 from jedha.cdp import *
-TEST_DIR = 'sample-input/'
+from settings import ROOT_DIR
+TEST_DIR = ROOT_DIR + '/tests/sample-input/'
 
 with open('{}nxos.txt'.format(TEST_DIR)) as nxos_file:
     NXOS_TEST_FILE = nxos_file.read()

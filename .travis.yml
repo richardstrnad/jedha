@@ -6,10 +6,11 @@ language: python
 
 # http://docs.travis-ci.com/user/languages/python/
 python:
- - 2.7
  - 3.3
  - 3.4
  - 3.5
+ - 3.6
+ - 3.7
 
 # http://docs.travis-ci.com/user/multi-os/
 os:
@@ -18,7 +19,5 @@ os:
 install:
  - pip install --upgrade -q pip
  - pip install -r requirements.txt
- - pip install .
-
 
 script: make test
