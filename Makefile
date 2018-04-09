@@ -8,7 +8,7 @@ pypi:
 	python setup.py sdist; python setup.py register; twine upload dist/* --skip-existing
 .PHONY: test
 test:
-	python -m unittest discover
+	python -m unittest tests.test_parser
 .PHONY: clean
 clean:
 	find ./* -name '*.pyc' -exec rm {} \;
