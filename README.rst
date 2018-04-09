@@ -51,7 +51,7 @@ Docs
 Pre-requisites
 ==============
 
-jedha_ requires Python versions 2.7 or 3.2+; the OS should not
+jedha_ requires Python versions 3.2+; the OS should not
 matter. If you want to run it under a Python virtualenv_, it's been heavily 
 tested in that environment as well.
 
@@ -65,11 +65,6 @@ The best way to get jedha is with or pip_.
 
       pip install --upgrade jedha
 
-Use ``pip3`` for Python3.x...
-
-::
-
-      pip3 install --upgrade jedha
 
 Otherwise `download it from PyPi <https://pypi.python.org/pypi/jedha>`_, extract it and run the ``setup.py`` script:
 
@@ -102,7 +97,7 @@ Samples
 Unit-Tests
 ==========
 
-`Travis CI project <https://travis-ci.org>`_ tests jedha on Python versions 2.7 through 3.5
+`Travis CI project <https://travis-ci.org>`_ tests jedha on Python versions 3.4 through 3.7-dev
 
 Click the image below for details; the current build status is:
 
