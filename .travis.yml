@@ -18,5 +18,7 @@ os:
 install:
  - pip install --upgrade -q pip
  - pip install -r requirements.txt
+ - pip install .
 
-script: make test
+script: 
+ - make test
