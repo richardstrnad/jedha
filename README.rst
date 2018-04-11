@@ -51,7 +51,7 @@ Docs
 Pre-requisites
 ==============
 
-jedha_ requires Python versions 3.2+; the OS should not
+jedha_ requires Python versions 3.4+; the OS should not
 matter. If you want to run it under a Python virtualenv_, it's been heavily 
 tested in that environment as well.
 
