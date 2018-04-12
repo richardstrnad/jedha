@@ -1,0 +1,65 @@
+NETL034#show cdp neighbors detail
+-------------------------
+Device ID: MyAp001
+Entry address(es):
+  IP address: 192.168.9.45
+Platform: cisco AIR-LAP1131G-E-K9,  Capabilities: Trans-Bridge
+Interface: GigabitEthernet0/20,  Port ID (outgoing port): FastEthernet0
+Holdtime : 134 sec
+
+Version :
+Cisco IOS Software, C1130 Software (C1130-K9W8-M), Version 12.4(25e)JAP8, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Fri 22-Apr-16 04:32 by prod_rel_team
+
+advertisement version: 2
+Duplex: full
+Power drawn: 12.200 Watts
+Power request id: 19209, Power management id: 1
+Power request levels are:0 0 0 0 0
+Management address(es):
+
+-------------------------
+Device ID: NET001.domain.local
+Entry address(es):
+  IP address: 192.168.2.2
+Platform: cisco WS-C3850-24XS,  Capabilities: Router Switch IGMP
+Interface: GigabitEthernet0/51,  Port ID (outgoing port): TenGigabitEthernet1/0/20
+Holdtime : 144 sec
+
+Version :
+Cisco IOS Software, IOS-XE Software, Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 03.07.03E RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Wed 13-Jan-16 23:40 by prod_rel_team
+
+advertisement version: 2
+VTP Management Domain: 'NONE'
+Native VLAN: 1
+Duplex: full
+Management address(es):
+  IP address: 192.168.2.2
+
+-------------------------
+Device ID: NET002.domain.local
+Entry address(es):
+  IP address: 192.168.2.3
+Platform: cisco WS-C3850-24XS,  Capabilities: Router Switch IGMP
+Interface: GigabitEthernet0/52,  Port ID (outgoing port): TenGigabitEthernet1/0/20
+Holdtime : 141 sec
+
+Version :
+Cisco IOS Software, IOS-XE Software, Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 03.07.03E RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Wed 13-Jan-16 23:40 by prod_rel_team
+
+advertisement version: 2
+VTP Management Domain: 'NONE'
+Native VLAN: 1
+Duplex: full
+Management address(es):
+  IP address: 192.168.2.3
+
+NETL034#

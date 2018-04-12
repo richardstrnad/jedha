@@ -1,0 +1,263 @@
+MYSwitch01#show cdp neighbors detail
+-------------------------
+Device ID: NETS999999.domain.local
+Entry address(es):
+  IP address: 192.168.1.19
+Platform: cisco WS-C3560-48PS,  Capabilities: Switch IGMP
+Interface: GigabitEthernet2/0/23,  Port ID (outgoing port): GigabitEthernet0/1
+Holdtime : 124 sec
+
+Version :
+Cisco IOS Software, C3560 Software (C3560-IPBASEK9-M), Version 12.2(52)SE, RELEASE SOFTWARE (fc3)
+Copyright (c) 1986-2009 by Cisco Systems, Inc.
+Compiled Fri 25-Sep-09 08:13 by sasyamal
+
+advertisement version: 2
+Protocol Hello:  OUI=0x00000C, Protocol ID=0x0112; payload len=27, value=RandVal
+VTP Management Domain: ''
+Native VLAN: 1
+Duplex: full
+Management address(es):
+  IP address: 192.168.1.19
+
+-------------------------
+Device ID: NETL0033.domain.local
+Entry address(es):
+  IP address: 192.168.1.40
+Platform: cisco WS-C3560G-48PS,  Capabilities: Switch IGMP
+Interface: GigabitEthernet2/0/22,  Port ID (outgoing port): GigabitEthernet0/2
+Holdtime : 179 sec
+
+Version :
+Cisco IOS Software, C3560 Software (C3560-IPBASEK9-M), Version 12.2(52)SE, RELEASE SOFTWARE (fc3)
+Copyright (c) 1986-2009 by Cisco Systems, Inc.
+Compiled Fri 25-Sep-09 08:13 by sasyamal
+
+advertisement version: 2
+Protocol Hello:  OUI=0x00000C, Protocol ID=0x0112; payload len=27, value=RandVal
+VTP Management Domain: 'default'
+Native VLAN: 1
+Duplex: full
+Management address(es):
+  IP address: 192.168.1.40
+
+-------------------------
+Device ID: NETL0011.domain.local
+Entry address(es):
+  IP address: 192.168.1.5
+Platform: cisco WS-C3850-12XS,  Capabilities: Switch IGMP
+Interface: TenGigabitEthernet1/0/22,  Port ID (outgoing port): TenGigabitEthernet1/0/1
+Holdtime : 152 sec
+
+Version :
+Cisco IOS Software, IOS-XE Software, Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 03.07.03E RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Wed 13-Jan-16 23:40 by prod_rel_team
+
+advertisement version: 2
+VTP Management Domain: 'NONE'
+Native VLAN: 1
+Duplex: full
+Management address(es):
+  IP address: 192.168.1.5
+
+-------------------------
+Device ID: NETL0010.domain.local
+Entry address(es):
+  IP address: 192.168.1.4
+Platform: cisco WS-C3850-12XS,  Capabilities: Switch IGMP
+Interface: TenGigabitEthernet1/0/21,  Port ID (outgoing port): TenGigabitEthernet1/0/1
+Holdtime : 164 sec
+
+Version :
+Cisco IOS Software, IOS-XE Software, Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 03.07.03E RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Wed 13-Jan-16 23:40 by prod_rel_team
+
+advertisement version: 2
+VTP Management Domain: 'NONE'
+Native VLAN: 1
+Duplex: full
+Management address(es):
+  IP address: 192.168.1.4
+
+-------------------------
+Device ID: NETL0003.domain.local
+Entry address(es):
+  IP address: 192.168.1.21
+Platform: cisco WS-C2960X-24PD-L,  Capabilities: Switch IGMP
+Interface: TenGigabitEthernet1/0/13,  Port ID (outgoing port): TenGigabitEthernet1/0/1
+Holdtime : 132 sec
+
+Version :
+Cisco IOS Software, C2960X Software (C2960X-UNIVERSALK9-M), Version 15.2(2)E3, RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Wed 26-Aug-15 07:12 by prod_rel_team
+
+advertisement version: 2
+Protocol Hello:  OUI=0x00000C, Protocol ID=0x0112; payload len=27, value=RandVal
+VTP Management Domain: 'NONE'
+Native VLAN: 1
+Duplex: full
+Management address(es):
+  IP address: 192.168.1.21
+
+-------------------------
+Device ID: NETL0004.domain.local
+Entry address(es):
+  IP address: 192.168.1.22
+Platform: cisco WS-C2960X-24PD-L,  Capabilities: Switch IGMP
+Interface: TenGigabitEthernet1/0/14,  Port ID (outgoing port): TenGigabitEthernet1/0/1
+Holdtime : 131 sec
+
+Version :
+Cisco IOS Software, C2960X Software (C2960X-UNIVERSALK9-M), Version 15.2(2)E3, RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Wed 26-Aug-15 07:12 by prod_rel_team
+
+advertisement version: 2
+Protocol Hello:  OUI=0x00000C, Protocol ID=0x0112; payload len=27, value=RandVal
+VTP Management Domain: 'NONE'
+Native VLAN: 1
+Duplex: full
+Management address(es):
+  IP address: 192.168.1.22
+
+-------------------------
+Device ID: NETL0036.domain.local
+Entry address(es):
+  IP address: 192.168.1.43
+Platform: cisco WS-C2960S-48FPS-L,  Capabilities: Switch IGMP
+Interface: TenGigabitEthernet1/0/19,  Port ID (outgoing port): GigabitEthernet1/0/49
+Holdtime : 167 sec
+
+Version :
+Cisco IOS Software, C2960S Software (C2960S-UNIVERSALK9-M), Version 12.2(55)SE5, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2012 by Cisco Systems, Inc.
+Compiled Thu 09-Feb-12 19:22 by prod_rel_team
+
+advertisement version: 2
+Protocol Hello:  OUI=0x00000C, Protocol ID=0x0112; payload len=27, value=RandVal
+VTP Management Domain: 'default'
+Native VLAN: 658
+Duplex: full
+Management address(es):
+  IP address: 192.168.1.43
+
+-------------------------
+Device ID: NETL0034.domain.local
+Entry address(es):
+  IP address: 192.168.1.41
+Platform: cisco WS-C3560G-48PS,  Capabilities: Switch IGMP
+Interface: TenGigabitEthernet1/0/20,  Port ID (outgoing port): GigabitEthernet0/51
+Holdtime : 141 sec
+
+Version :
+Cisco IOS Software, C3560 Software (C3560-IPBASEK9-M), Version 12.2(52)SE, RELEASE SOFTWARE (fc3)
+Copyright (c) 1986-2009 by Cisco Systems, Inc.
+Compiled Fri 25-Sep-09 08:13 by sasyamal
+
+advertisement version: 2
+Protocol Hello:  OUI=0x00000C, Protocol ID=0x0112; payload len=27, value=RandVal
+VTP Management Domain: 'default'
+Native VLAN: 1
+Duplex: full
+Management address(es):
+  IP address: 192.168.1.41
+
+-------------------------
+Device ID: NETG002.domain.local
+Entry address(es):
+  IP address: 192.168.5.3
+Platform: cisco WS-C3850-24XS,  Capabilities: Router Switch IGMP
+Interface: TenGigabitEthernet1/0/23,  Port ID (outgoing port): TenGigabitEthernet1/0/23
+Holdtime : 141 sec
+
+Version :
+Cisco IOS Software, IOS-XE Software, Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 03.07.03E RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Wed 13-Jan-16 23:40 by prod_rel_team
+
+advertisement version: 2
+VTP Management Domain: 'NONE'
+Native VLAN: 1
+Duplex: full
+Management address(es):
+  IP address: 192.168.5.3
+
+-------------------------
+Device ID: NETG002.domain.local
+Entry address(es):
+  IP address: 192.168.5.3
+Platform: cisco WS-C3850-24XS,  Capabilities: Router Switch IGMP
+Interface: TenGigabitEthernet1/0/24,  Port ID (outgoing port): TenGigabitEthernet1/0/24
+Holdtime : 178 sec
+
+Version :
+Cisco IOS Software, IOS-XE Software, Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 03.07.03E RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Wed 13-Jan-16 23:40 by prod_rel_team
+
+advertisement version: 2
+VTP Management Domain: 'NONE'
+Native VLAN: 1
+Duplex: full
+Management address(es):
+  IP address: 192.168.5.3
+
+-------------------------
+Device ID: OtherDev01
+Entry address(es):
+  IP address: 192.168.2.108
+Platform: DS-C9120-K9,  Capabilities: Host
+Interface: GigabitEthernet2/0/8,  Port ID (outgoing port): mgmt0
+Holdtime : 126 sec
+
+Version :
+2.0(2b)
+
+advertisement version: 2
+Duplex: full
+Management address(es):
+  IP address: 192.168.2.108
+
+-------------------------
+Device ID: NETG007
+Entry address(es):
+  IP address: 192.168.1.8
+  IPv6 address: FE80::82E8:6FFF:FE01:4EF  (link-local)
+Platform: AIR-CT2504-K9,  Capabilities: Host
+Interface: GigabitEthernet2/0/43,  Port ID (outgoing port): GigabitEthernet0/0/1
+Holdtime : 176 sec
+
+Version :
+Manufacturer's Name: Cisco Systems Inc.  Product Name: Cisco Controller  Product Version: 8.0.133.0  RTOS Version: Erro  Bootloader Version: 1.0.20  Build Type: DATA + WPS
+
+advertisement version: 2
+Duplex: full
+
+-------------------------
+Device ID: NETG007
+Entry address(es):
+  IP address: 192.168.1.8
+  IPv6 address: FE80::82E8:6FFF:FE01:4EF  (link-local)
+Platform: AIR-CT2504-K9,  Capabilities: Host
+Interface: GigabitEthernet2/0/44,  Port ID (outgoing port): GigabitEthernet0/0/2
+Holdtime : 176 sec
+
+Version :
+Manufacturer's Name: Cisco Systems Inc.  Product Name: Cisco Controller  Product Version: 8.0.133.0  RTOS Version: Erro  Bootloader Version: 1.0.20  Build Type: DATA + WPS
+
+advertisement version: 2
+Duplex: full
+
+
+Total cdp entries displayed : 13
+MYSwitch01#
