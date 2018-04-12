@@ -2,7 +2,10 @@ import os
 import unittest
 
 from jedha.cdp import *
-TEST_DIR = 'sample-input/'
+from sampleinput.nxos_dict import nxos_dict
+from sampleinput.ios_dict import ios_dict
+
+TEST_DIR = 'sampleinput/'
 
 with open('{}nxos.txt'.format(TEST_DIR)) as nxos_file:
     NXOS_TEST_FILE = nxos_file.read()
@@ -30,6 +33,17 @@ class TestDeviceClass(unittest.TestCase):
     def test_device_get_all_entries_ios(self):
         device = Device(IOS_TEST_FILE)
         self.assertEqual(len(device.blocks), len(device.cdp_entries))
+
+    def test_get_dict_property(self):
+        device = Device(NXOS_TEST_FILE)
+        expected_dict = nxos_dict
+        self.assertEqual(device.dict, expected_dict)
+
+    def test_get_json_property(self):
+        device = Device(IOS_TEST_FILE)
+        expected_json = ios_dict
+        expected_json = json.dumps(expected_json)
+        self.assertEqual(device.json, expected_json)
 
 
 class TestCDPEntryClass(unittest.TestCase):
