@@ -78,6 +78,33 @@ class TestCDPEntryClass(unittest.TestCase):
         cur_dev = device.cdp_entries[1]
         self.assertEqual(cur_dev.remote_port_short, 'Gi0/2')
 
+    def test_get_dict_property(self):
+        device = Device(NXOS_TEST_FILE)
+        cur_dev = device.cdp_entries[0]
+        expected_dict = {
+            'device_id': 'NETS999999.domain.local',
+            'ip_address': '192.168.1.19',
+            'platform': 'WS-C3560-48PS',
+            'capabilities': 'Switch IGMP',
+            'local_port': 'GigabitEthernet2/0/23',
+            'remote_port': 'GigabitEthernet0/1'
+        }
+        self.assertEqual(cur_dev.dict, expected_dict)
+
+    def test_get_json_property(self):
+        device = Device(IOS_TEST_FILE)
+        cur_dev = device.cdp_entries[0]
+        expected_json = {
+            'device_id': 'MyAp001',
+            'ip_address': '192.168.9.45',
+            'platform': 'AIR-LAP1131G-E-K9',
+            'capabilities': 'Trans-Bridge',
+            'local_port': 'GigabitEthernet0/20',
+            'remote_port': 'FastEthernet0'
+        }
+        expected_json = json.dumps(expected_json)
+        self.assertEqual(cur_dev.json, expected_json)
+
     def test_create_interface_description(self):
         device = Device(NXOS_TEST_FILE)
         cur_dev = device.cdp_entries[0]

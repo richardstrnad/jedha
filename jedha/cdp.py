@@ -3,6 +3,7 @@
 It requires 'show cdp neighbor detail' output
 """
 
+import json
 import re
 
 _KEYS = {
@@ -34,6 +35,22 @@ class CDPEntry(object):
     @property
     def remote_port_short(self):
         return self.shorten_interface(self.remote_port)
+
+    @property
+    def dict(self):
+        resp = {
+            'device_id': self.device_id,
+            'ip_address': self.ip_address,
+            'platform': self.platform,
+            'capabilities': self.capabilities,
+            'local_port': self.local_port,
+            'remote_port': self.remote_port
+        }
+        return resp
+
+    @property
+    def json(self):
+        return json.dumps(self.dict)
 
     @staticmethod
     def _extract_keys(pattern, string):
@@ -103,6 +120,15 @@ class Device(object):
             cdp_entry = CDPEntry()
             cdp_entry.get_all_properties(block)
             self.cdp_entries.append(cdp_entry)
+
+    @property
+    def dict(self):
+        resp = [cdp_entry.dict for cdp_entry in self.cdp_entries]
+        return resp
+
+    @property
+    def json(self):
+        return json.dumps(self.dict)
 
 
 def ciscocmd_input(cdp_input):
