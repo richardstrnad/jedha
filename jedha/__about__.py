@@ -1,4 +1,8 @@
+'''
+Provides information about the project
+'''
 import datetime
+
 
 __all__ = [
     '__title__', '__summary__', '__uri__', '__version__', '__author__',
