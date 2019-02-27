@@ -15,7 +15,7 @@ _KEYS = {
     'remote_port': r'Port ID \(outgoing port\):',
 }
 
-class CDPEntry(object):
+class CDPEntry():
 
     """This Class represents a CDP Entry
     """
@@ -33,14 +33,23 @@ class CDPEntry(object):
 
     @property
     def local_port_short(self):
+        '''
+        returns the local interface in short
+        '''
         return self.shorten_interface(self.local_port)
 
     @property
     def remote_port_short(self):
+        '''
+        returns the remote interface in short
+        '''
         return self.shorten_interface(self.remote_port)
 
     @property
     def dict(self):
+        '''
+        returns a dictionary of the CDPEntry object
+        '''
         resp = {
             'device_id': self.device_id,
             'ip_address': self.ip_address,
@@ -53,6 +62,9 @@ class CDPEntry(object):
 
     @property
     def json(self):
+        '''
+        returns a json string of the CDPEntry object
+        '''
         return json.dumps(self.dict)
 
     @staticmethod
@@ -60,8 +72,7 @@ class CDPEntry(object):
         res = re.search(r'{}\s?(.*)'.format(pattern), string)
         if res:
             return res.group(1).split(',')[0].strip()
-        else:
-            return None
+        return None
 
     @staticmethod
     def shorten_interface(port, length=2):
@@ -96,12 +107,12 @@ class CDPEntry(object):
         else:
             device_id = self.device_id
         return 'interface {}\n  description {}{}{}'.format(self.local_port,
-                                                          remote_port,
-                                                          delimiter,
-                                                          device_id)
+                                                           remote_port,
+                                                           delimiter,
+                                                           device_id)
 
 
-class Device(object):
+class Device():
     """
     This Class represents a Device that has one or multiple CDP Entries (Neighbors)
     """
@@ -126,11 +137,17 @@ class Device(object):
 
     @property
     def dict(self):
+        '''
+        returns a dictionary of the Device object
+        '''
         resp = [cdp_entry.dict for cdp_entry in self.cdp_entries]
         return resp
 
     @property
     def json(self):
+        '''
+        returns a json string of the Device object
+        '''
         return json.dumps(self.dict)
 
 
