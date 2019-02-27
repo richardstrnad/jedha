@@ -40,8 +40,42 @@ jedha is a Python_ library, which parses through Cisco CDP output and generates
 python objects out of it.
 
 
-Docs
+Usage
 ====
+
+jedha takes the output of :code:`show cdp neighbors detail` as input.
+
+.. code:: python
+
+  cdp_input = '''MYSwitch01#show cdp neighbors detail
+  -------------------------
+  Device ID: NETS999999.domain.local
+  Entry address(es):
+    IP address: 192.168.1.19
+  Platform: WS-C3560-48PS,  Capabilities: Switch IGMP
+  Interface: GigabitEthernet2/0/23,  Port ID (outgoing port): GigabitEthernet0/1
+  Holdtime : 124 sec
+
+  Version :
+  Cisco IOS Software, C3560 Software (C3560-IPBASEK9-M), Version 12.2(52)SE, RELEASE SOFTWARE (fc3)
+  Copyright (c) 1986-2009 by Cisco Systems, Inc.
+  Compiled Fri 25-Sep-09 08:13 by sasyamal
+
+  advertisement version: 2
+  Protocol Hello:  OUI=0x00000C, Protocol ID=0x0112; payload len=27, value=RandVal
+  VTP Management Domain: ''
+  Native VLAN: 1
+  Duplex: full
+  Management address(es):
+    IP address: 192.168.1.19
+  '''
+
+  from jedha.cdp import *
+
+  dev = Device(cdp_input)
+  
+This device object provides a various of methods.
+
 
 - The Docs follow soon...
 - jedha tutorial follow soon...
