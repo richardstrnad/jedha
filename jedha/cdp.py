@@ -28,6 +28,9 @@ class CDPEntry(object):
         self.local_port = None
         self.remote_port = None
 
+    def __repr__(self):
+        return 'CDP Entry: {}'.format(self.device_id)
+
     @property
     def local_port_short(self):
         return self.shorten_interface(self.local_port)
