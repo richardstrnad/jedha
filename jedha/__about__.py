@@ -13,7 +13,7 @@ __title__ = 'jedha'
 __summary__ = 'jedha - Easy Cisco CDP Parser'
 __uri__ = ''
 
-__version__ = '0.1.4'
+__version__ = '0.1.5'
 
 __author__ = 'Richard Strnad'
 __email__ = 'cisco-cdp-parser@strnad.ch'
