@@ -8,6 +8,7 @@ pypi:
 	python setup.py sdist; python setup.py register; twine upload dist/* --skip-existing
 .PHONY: test
 test:
+	pylint jedha setup.py
 	cd tests; python test_parser.py
 .PHONY: clean
 clean:
